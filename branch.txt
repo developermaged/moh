@@ -1,0 +1,57 @@
+to clone or download all files from reps to local machine
+$git clone url
+
+Git PUSH
+git push 'remote_name' 'branch_name'
+
+Add the file to the new local repository
+git add .
+
+
+Commit the files staged in your local repository by writing a commit message
+git commit -m 'your message'
+
+Copy your remote repository's URL from GitHub
+Add the URL copied, which is your remote repository to where your local content from your repository is pushed
+git remote add origin 'your_url_name'
+
+Push the code in your local repository to GitHub
+git push -u origin master
+
+git remote add hr https://github.com/developermaged/HumanResourcesAPI.git
+
+
+git merge FromBransh ToBransh
+
+clear
+
+git status
+
+git add .
+git push origin hr 
+git commit -m "Creating hr Bransh"
+
+git checkout hr
+
+git checkout -b hr
+
+git fetch
+
+============
+
+pwd
+git init 
+git branch
+git checkout -b maged
+git checkout -b mohamed
+git checkout -b ahmed
+git remote add origin https://github.com/developermaged/moh.git
+git branch -M main
+
+
+
+
+
+
+
+
